@@ -188,11 +188,17 @@ header::before{
 
 .header-content h1{
     margin-bottom: 2rem;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 600;
     color: var(--text-dark);
     text-align: center;
 }
+
+@media (min-width: 1200px) {
+    .header-content h1{
+      font-size: 4rem;
+    }
+  }
 
 .header-btns{
     display: flex;
